@@ -28,7 +28,7 @@ spring:
     config:
       server:
         git:
-          uri: http://git.jiagouedu.com/java-vip/spring-cloud-mall-config.git
+          uri: https://github.com/aaronrao/mall-config.git
 
   # rabbitmq
   rabbitmq:
