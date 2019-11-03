@@ -5,7 +5,7 @@ server:
 # eureka
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka-server
     prefer-ip-address: true
   server:
     enable-self-preservation: false

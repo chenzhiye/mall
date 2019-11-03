@@ -17,7 +17,7 @@ public class CreateOrderCtrl {
     @HystrixCommand(fallbackMethod = "findThingsFail")
     @RequestMapping(value = "/api/find/data", method = RequestMethod.GET)
     public JSONObject findThings(String username, String productSn, String orderSn) {
-    	//int i = 1/0;
+    	int i = 1/0;
         return createOrderService.findThings(username, productSn, orderSn);
     }
 
